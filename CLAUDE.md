@@ -21,6 +21,11 @@
 | `docs/site/faq-open-questions.md` | 7 фактов, которые надо подтвердить до публикации FAQ |
 | `docs/ops/tooling.md` | claude-in-chrome, Higgsfield, ElevenLabs, промпты |
 | `docs/ops/content.md` | SMM, контент-инсайты, второй бизнес ThereYare |
+| `docs/ops/dashboard-tz.md` | ТЗ на ежедневный дашборд (от Alex) |
+| `docs/ops/dashboard-plan.md` | Разбор подходов и решение по дашборду |
+| `docs/ops/dashboard-bookings.md` | Часть по записям — работает, с замером и находками |
+| `docs/ops/looker-setup.md` | Пошаговая настройка экрана с цифрами |
+| `scripts/parse-bookings.py` | Разбор выгрузки записей Wix в таблицу |
 | `TASKS.md` | Сводка открытых задач по приоритету — главный рабочий список |
 
 ## Как работать с Alex (владелец)

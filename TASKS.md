@@ -14,7 +14,8 @@
 
 | # | Задача | Кто |
 |---|---|---|
-| 4a | **Ежедневный дашборд** (Ads + Search Console + GBP + Bookings), см. `docs/ops/dashboard-tz.md`. Сначала подключить Search Console — сейчас не подключена | Claude Code |
+| 4a | **Ежедневный дашборд.** Часть по записям готова (`docs/ops/dashboard-bookings.md`). Осталось: Alex настраивает Looker Studio по `docs/ops/looker-setup.md` | Alex (~1 час кликами) |
+| 4b | Проверить расхождение: Korean lash lift записан за $150, в прайсе $90 | Alex + Alena |
 | 4 | Combo Brows завести в Wix Bookings. Обсудить с мастером: цена ~$480, длительность 2:30–3:00, нужны ли Refresh и Touch-Up | Alex + мастер |
 | 5 | Bing Webmaster Tools — регистрация (только вручную, API нет). ChatGPT Search опирается на индекс Bing | Claude + Alex |
 | 6 | Проверить, не включился ли AI Max обратно | Claude |
