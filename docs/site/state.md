@@ -12,6 +12,25 @@
 - ✅ GEO-чеклист для 6 районных страниц (Beverly Hills, Century City, Brentwood, Santa Monica, Culver City, Bel Air)
 - ⚠️ Доступность: репитерные заголовки намеренно оставлены H2. Реальные проблемы: нет H1 на Book Lash Extensions, H6 перед H1 на Home, пропуски уровней на Contact
 
+## Правки 13 сентября — Nano & Combo Brows (опубликовано)
+
+Решение и контекст — см. `docs/google-ads/state.md`, раздел про закрытие рассогласования Combo Brows.
+
+**Wix Bookings:**
+- Услуга «Nano Eyebrows» → **«Nano & Combo Brows»**, id `c9304d62-918f-4175-844e-6432f252883f` (revision 19 на момент правки). Подтверждено повторным query
+- Цена не менялась: в Bookings уже стоит $550 с зачёркнутой $480 (Summer Special)
+
+**Страница `/nanobrows` (Wix Classic Editor):**
+- H1 `#section1part1title1`: «Nano Brows» → «Nano & Combo Brows». Заголовок 6, DIN Neuzeit Grotesk 26px; подстрока «in Los Angeles» выставлена 16px
+- В существующий текстовый блок `#section1part1p1`, после абзаца «The result: thicker, natural…», добавлен **один новый абзац**:
+  > We also offer Combo Brows — a combination of the hair-stroke technique and soft powder shading. Hair strokes define the front of the brow and the direction of natural growth, while gentle powder shading adds fullness and shape to the rest of the brow for a soft, beautifully finished look.
+- Существующий текст про Nano Brows **не удалялся и не переписывался**. Секция «Nano Brows vs. Microblading», цены и FAQ не тронуты
+- Новый графический блок не заводился — сознательное решение, чтобы не ломать вёрстку
+
+**Сайт сохранён и опубликован.** Проверено на живой странице: изменения на месте, виджет бронирования показывает «Nano & Combo Brows / 2 hr 30 min / $550 → $480».
+
+⚠️ **Инцидент при работе через Wix API:** query по `name $startsWith "Nano"` вернул два результата, и первой была переименована не та услуга — «Nano / Powder Brows Touch-Up» (id `bfb170cb-712d-4fac-b240-4d96beb42a98`). Ошибка замечена и откачена сразу, имя восстановлено. **Правило:** перед update по имени всегда проверять, сколько записей вернул query.
+
 ## 🔴 Открытые задачи
 
 1. **Опубликовать сайт целиком** — FAQ-аккордеоны, Schema.org, фикс Instagram сидят в черновике

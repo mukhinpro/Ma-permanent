@@ -28,8 +28,8 @@
 | 3D Areola Tattoo | From $650 | `0c7f8300-466b-411e-a77e-60bc0cb165fc` |
 | Lash extensions | From $130 | кастомная |
 | Under-Eye Dark Circle Camouflage | $420 | кастомная |
-| Nano Brows | $480 | `5dd6cb80-9dd4-4fd4-9528-a30ce63c5d45` |
-| Combo Brows | $480 | `ff54a972-0f75-4c9e-8398-c58090149730` |
+| **Nano & Combo Brows** | $480 | `5dd6cb80-9dd4-4fd4-9528-a30ce63c5d45` |
+| Combo Brows | $480 | `ff54a972-0f75-4c9e-8398-c58090149730` ⚠️ дубль, см. ниже |
 | Ombre Lips | $440 | `bbce5804-8fd9-4661-9e4b-f4b89504971d` |
 | Angel Lips Berry Kiss | $440 | `cb5250ad-82bc-432e-90c8-d3dd49130ab9` |
 | Lipstick Effect Lips | $440 | `d46f4672-0715-4753-9869-7f36fe9b84a6` |
@@ -37,6 +37,31 @@
 **Удалены 13 сентября:** `job_type_id:eyebrows` (Eyebrows, From $440) и `job_type_id:eyebrow_tattooing` (Eyebrow tattooing, From $440) — дублировали Powder/Nano/Combo Brows.
 
 **Доступные, но не добавленные стандартные типы:** BOTOX treatments, Dermaplaning, Eyebrow embroidery, Eyelash enhancements, Eyeliners, Hair extensions, Lash perming, Lip fillers, Medical micropigmentation, Microblading, Microshading, Nanoblading, Nipple coloring, Ombre eyebrow styling, Permanent lip makeup.
+
+## Правка Nano & Combo Brows (13 сентября)
+
+Услуга `5dd6cb80-9dd4-4fd4-9528-a30ce63c5d45`, раздел `permanent_make_up_clinic`.
+
+**Название:** «Nano Brows» → «Nano & Combo Brows»
+**Цена:** $480 фикс. — **не менялась**
+
+**Описание было** (287/300):
+> Nano Brows (Nano Blading / Nano Brading) is a modern hair-stroke technique using an ultra-fine needle for crisp, natural-looking eyebrow strokes. A refined alternative to microblading, ideal for anyone who wants soft, realistic brows with less trauma to the skin. Results last 1-2 years.
+
+**Описание стало** (238/300):
+> Nano Brows is a modern hair-stroke technique using an ultra-fine needle for crisp, natural brows — a low-trauma alternative to microblading. We also offer Combo Brows: hair-strokes blended with soft powder shading. Results last 1-2 years.
+
+Alex явно потребовал сохранить формулировку «modern technique» — в лимит 300 символов вместе с упоминанием combo старый текст целиком не помещался, поэтому сокращены второстепенные части (расшифровка «Nano Blading / Nano Brading», развёрнутое «ideal for anyone who wants…»).
+
+Подтверждено тостом: «Сведения об услугах отредактированы. Изменения скоро будут опубликованы».
+
+**Карточка остаётся на английском.** Русские названия в интерфейсе — автоперевод стандартных типов Google (см. раздел про ложную тревогу ниже). Клиент в LA видит английский; переводить кастомные услуги на русский смысла нет.
+
+### ⚠️ Открыто: дубль «Combo Brows»
+
+Отдельная услуга **«Combo Brows» ($480)**, id `ff54a972-0f75-4c9e-8398-c58090149730`, осталась в карточке без изменений — не удалялась и не редактировалась, решения по ней не принималось.
+
+Теперь это дубль: combo описана внутри «Nano & Combo Brows». Варианты — удалить дубль либо оставить как отдельную точку входа под запрос «combo brows». Команды от Alex нет.
 
 ## Решение по позиционированию
 
@@ -68,7 +93,7 @@ Alex: «Я хочу, чтобы на этой странице был перма
 | 12 | Заполнить Q&A (8–10 вопросов с FAQ сайта) | ⏳ | Claude |
 | 13 | Упомянуть район живой фразой (необязательно) | ⏳ | Claude |
 | 14 | Фото интерьера и мастеров, удалить 1 отклонённое | ⏳ | Alex |
-| 15 | 1 октября: Nano Brows $480 → $550 | 🔴 дедлайн | оба |
+| 15 | 1 октября: Nano & Combo Brows $480 → $550 | 🔴 дедлайн | оба |
 
 **Неотвеченные отзывы:** Мария (powder brows), Vika_662, Vasilisa Troy, Diana, Svetlana Romanchuk.
 

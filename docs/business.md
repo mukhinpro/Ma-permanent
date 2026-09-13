@@ -39,7 +39,7 @@
 - Lip Blush Touch-Up — $150
 
 ### Eyebrows
-- Nano Eyebrows — **$550** (сейчас акция $480, «Nano Brows Summer Special»)
+- **Nano & Combo Brows** — **$550** (сейчас акция $480, «Nano Brows Summer Special»). Бывшая «Nano Eyebrows», переименована 13 сентября: combo (волоски + пудровое напыление) входит в эту услугу, отдельной позиции под combo нет
 - Powder Brows — $440
 - Refresh Powder Brows — $300
 - Refresh Nano Eyebrows — $350
@@ -70,9 +70,10 @@
 
 ## 🔴 Дедлайн 1 октября 2026
 
-Поднять Nano Brows $480 → **$550** одновременно в трёх местах:
-1. Сайт / Wix Bookings
-2. GBP (услуга Nano Brows)
-3. Google Ads — ценовой ресурс + пауза/правка второго RSA (в нём упомянут «Sept 30»)
+Поднять $480 → **$550** одновременно в трёх местах. Услуга с 13 сентября называется **Nano & Combo Brows** — искать по новому имени:
+
+1. **Сайт / Wix Bookings** — услуга `c9304d62-918f-4175-844e-6432f252883f`. NB: в Bookings цена уже стоит $550 с зачёркнутой $480 (Summer Special) — нужно убрать акционную цену, а не менять базовую
+2. **GBP** — услуга `5dd6cb80-9dd4-4fd4-9528-a30ce63c5d45`, сейчас $480 фикс.
+3. **Google Ads** — ценовой ресурс + пауза/правка второго RSA (в нём упомянут «Sept 30»)
 
 Плюс переименовать акцию «Nano Brows Summer Special».
