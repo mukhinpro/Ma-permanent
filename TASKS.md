@@ -22,6 +22,8 @@
 | 4a | **Ежедневный дашборд.** Часть по записям готова (`docs/ops/dashboard-bookings.md`). Осталось: Alex настраивает Looker Studio по `docs/ops/looker-setup.md` | Alex (~1 час кликами) |
 | 4b | Проверить расхождение: Korean lash lift записан за $150, в прайсе $90 | Alex + Alena |
 | 4c | **Судьба дубля «Combo Brows» ($480) в GBP** — combo теперь описана внутри «Nano & Combo Brows». Удалить дубль или оставить как отдельную точку входа под запрос «combo brows»? | Alex |
+| 4e | **Опечатка в адресе страницы:** `/darccirclecauflage` → `/darkcirclecamouflage`. Сначала 301-редирект в дашборде Wix, потом смена адреса | Alex |
+| 4f | **Заголовки и описания 9 страниц услуг** — 216 показов и 0 кликов за 90 дней. См. `docs/site/seo-audit-2026-09-15.md` | Claude + Alex |
 | 4d | Наблюдать группу **Nano & Combo**: часть ключей в ней чисто powder-запросы, а ведут на страницу нано. Если пойдут плохие показатели — развести ключи по группам | Claude |
 | 5 | Bing Webmaster Tools — регистрация (только вручную, API нет). ChatGPT Search опирается на индекс Bing | Claude + Alex |
 | 6 | Проверить, не включился ли AI Max обратно | Claude |

@@ -18,6 +18,7 @@
 | `docs/site/state.md` | Сайт Wix: SEO, открытые задачи, gift certificate flow |
 | `docs/site/wix-api.md` | Что в Wix API работает, а что нет |
 | `docs/site/faq.md` | 72 вопроса-ответа по 9 услугам, EN (на сайт) + RU (проверка) |
+| `docs/site/seo-audit-2026-09-15.md` | SEO-аудит по данным Search Console + самопроверка выводов |
 | `docs/site/faq-open-questions.md` | 7 фактов, которые надо подтвердить до публикации FAQ |
 | `docs/ops/tooling.md` | claude-in-chrome, Higgsfield, ElevenLabs, промпты |
 | `docs/ops/content.md` | SMM, контент-инсайты, второй бизнес ThereYare |
